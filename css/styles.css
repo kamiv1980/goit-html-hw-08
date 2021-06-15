@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 320px;
+  font-family: 'Montserrat', 'Roboto', serif;
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v27-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/roboto-v27-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/roboto-v27-latin-regular.woff')
+      format('woff'),
+    /* Modern Browsers */ url('../fonts/roboto-v27-latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../fonts/roboto-v27-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/montserrat-v15-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/montserrat-v15-latin-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../fonts/montserrat-v15-latin-regular.woff') format('woff'),
+    /* Modern Browsers */ url('../fonts/montserrat-v15-latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../fonts/montserrat-v15-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/montserrat-v15-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/montserrat-v15-latin-700.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/montserrat-v15-latin-700.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/montserrat-v15-latin-700.woff')
+      format('woff'),
+    /* Modern Browsers */ url('../fonts/montserrat-v15-latin-700.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../fonts/montserrat-v15-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+header {
+  height: 540px;
+  text-align: center;
+  background-image: url('../images/VectorD.png');
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-color: rgb(26, 25, 21);
+  margin-bottom: 70px;
+  background-size: cover;
+}
+.nav-bar {
+  padding-top: 20px;
+  height: 176px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  margin-bottom: 30px;
+}
+div > a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  width: 94px;
+  height: 40px;
+  padding-top: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  border-color: transparent;
+}
+.sign-up:hover,
+.log-in:hover,
+.sign-up:focus,
+.log-in:focus {
+  border-color: rgb(255, 255, 255);
+}
+.trade-mark {
+  font-size: 20px;
+  font-family: 'Montserrat';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.title {
+  margin: 0 auto;
+  width: 320px;
+  font-size: 30px;
+  font-family: 'Montserrat';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.subtitle {
+  margin: 0 auto;
+  width: 220px;
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.button-find {
+  font-size: 14px;
+  font-family: 'Montserrat';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  border-radius: 20px;
+  background-color: rgb(255, 78, 80);
+  border-color: rgb(255, 78, 80);
+  width: 280px;
+  height: 40px;
+  cursor: pointer;
+}
+.wrapper {
+  text-align: center;
+}
+h3 {
+  margin: 0 auto;
+  width: 320px;
+  font-size: 22px;
+  font-family: 'Montserrat';
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.partner-list {
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.avatar {
+  height: 126px;
+  margin-bottom: 1rem;
+}
+.partner-name {
+  font-size: 14px;
+  font-family: 'Montserrat';
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.partner-hobby {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+}
+.partner-list > li {
+  flex-basis: 100%;
+  margin-bottom: 1.5rem;
+}
+.partner-item {
+  margin: 0 auto;
+  width: 220px;
+}
+.icon {
+  position: relative;
+  left: 136px;
+  bottom: 36px;
+  height: 36px;
+  width: 36px;
+  border: white 4px solid;
+  border-radius: 50%;
+}
+.icon img {
+  padding-top: 4px;
+}
+.button-load {
+  width: 280px;
+  height: 40px;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  color: rgb(255, 78, 80);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .partner-list > li {
+    flex-basis: 50%;
+    margin-bottom: 2rem;
+  }
+  .partner-list {
+    max-width: 500px;
+  }
+  h3 {
+    width: inherit;
+    margin-bottom: 2rem;
+  }
+  .button-load {
+    width: 196px;
+  }
+  .nav-bar {
+    max-width: 680px;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .title {
+    width: 520px;
+    font-size: 52px;
+  }
+  .subtitle {
+    width: 520px;
+    font-size: 24px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .button-find {
+    width: 226px;
+  }
+}
+@media (min-width: 1200px) {
+  .partner-list > li {
+    flex-basis: 25%;
+  }
+  .partner-list {
+    max-width: 940px;
+  }
+}
